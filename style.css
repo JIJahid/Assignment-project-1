@@ -55,7 +55,7 @@
     width: 100%;
     height: auto;
     margin: 0 auto;
-    margin-top: 60px;
+    margin-top: 100px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -69,7 +69,7 @@
     font-family:'Inter', sans-serif;
     text-transform: uppercase;
     color: red;
-    padding: 40px 0;
+    padding: 20px 0;
 
 }
 .categories-content h4{
@@ -81,7 +81,7 @@
     color: red;
 }
 .categories-content h2{
-    font-size: 45px;
+    font-size: 42px;
     padding: 5px 0;
     font-family:'Inter', sans-serif;
     text-transform: uppercase;
@@ -143,6 +143,7 @@
     border: none;
     color: white;
     font-weight: 550;
+    cursor: pointer;
     font-family: 'Inter', sans-serif;
     padding: 10px;
 }
@@ -174,6 +175,7 @@
 .evening-content h1{
     font-family: 'Inter', sans-serif;
     padding: 10px;
+    font-weight: 550;
     font-size: 30px;
 }
 .evening-content span{
@@ -190,6 +192,7 @@
     color:white ;
     border-radius: 10px;
     font-weight: 600;
+    cursor: pointer;
     font-family: 'Inter', sans-serif;
     padding: 15px;
     margin: 10px;
@@ -197,6 +200,8 @@
 
 
 
+
+/*offer section Start*/
 #offer{
     width: 100%;
     height: auto;
@@ -257,11 +262,15 @@
     margin:25px 0px;
     margin-left: -60%;
 }
+/*offer section end*/
 
 
 
 
 
+
+
+/*sales section start*/
 #sales{
     width: 100%;
     height: auto;
@@ -272,7 +281,6 @@
     height: auto;
     text-align: center;
     margin: 0 auto;
-    padding: 10px;
 }
 .sales-content h4{
     font-size: 25px;
@@ -291,11 +299,10 @@
 .sales-content p{
     font-size: 18px;
     font-weight: 500;
+    margin-bottom: 50px;
     font-family:'Inter', sans-serif;
     padding: 10px 5rem;
 }
-
-
 #sales .sales-container{
     width: 1320px;
     height: 649px;
@@ -335,9 +342,13 @@
     left: 5px;
     position: absolute;
 }
+/*sales section end*/
 
 
 
+
+
+/*portfolio section start*/
 #portfolio-item{
     width: 100%;
     height: auto;
@@ -388,18 +399,18 @@
 .portfolio-img img:hover{
   transform:scale(0.9);
 }
+/*portfolio section end*/
 
 
 
 
 
 
-
-
+/*newsletter section start*/
 #newsletter{
     width: 100%;
     height: auto;
-    margin-top: 50px;
+    margin-top: 100px;
     display: flex;
 }
 .newsletter-container{
@@ -437,14 +448,16 @@
     width: 220px;
     padding: 25px;
     margin: -10px;
+    cursor: pointer;
     text-transform: capitalize;
     border-radius: 0px 50px 50px 0px;
 }
+/*newsletter section end*/
 
 
 
 
-
+/*footer start*/
 #footer{
     width: 100%;
     height: auto;
@@ -487,7 +500,6 @@
 .footer-container img{
     margin: 5px;
 }
-
 .footer-icon{
     width: 100%;
     height: auto;
@@ -502,7 +514,6 @@
     height: auto;
     margin: 10px;
 }
-
 .footer-copyright{
     width: 100%;
     height: auto;
@@ -516,8 +527,8 @@
     color: white;
     padding: 2rem 0px;
 }
-
 .icon div{
     display: flex;
     align-items: center;
 }
+/*footer end*/
