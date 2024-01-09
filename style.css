@@ -1,0 +1,446 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+
+
+
+#hero{
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+}
+.hero-container{
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    background: url(./Image/Banner\ Image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    border-radius: 16px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.hero-content{
+    width: 1320px;
+    height: 600px;
+    display: flex;
+    border-radius: 16px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+.hero-content h3{
+    font-size: 35px;
+    color: white;
+    font-weight: 400;
+    padding: 10px;
+}
+.hero-content h1{
+    font-size: 70px;
+    color: white;
+}
+
+
+
+#categories{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.categories-content{
+    justify-content: center;
+    align-items: center;
+}
+.categories-content h1{
+    font-size: 85px;
+    font-family:'Inter', sans-serif;
+    text-transform: uppercase;
+    color: red;
+    padding: 40px 0;
+
+}
+.categories-content h4{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 5px 0;
+    font-family:'Inter', sans-serif;
+    text-transform: uppercase;
+    color: red;
+}
+.categories-content h2{
+    font-size: 45px;
+    padding: 5px 0;
+    font-family:'Inter', sans-serif;
+    text-transform: uppercase;
+}
+.categories-content img{
+    width: 820px;
+    height: auto;
+    margin-top: 50px;
+}
+
+
+
+
+
+#midnight-party{
+    width: 1320px;
+    height: 600px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-image: url(./Image/Vectorrr.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    justify-content: center;
+    align-items: center;
+}
+.midnight-container{
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.5) 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.midnight-content{
+    width:60%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 80px;
+}
+.midnight-content h1{
+    font-size: 60px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+.midnight-content p{
+    font-size: 18px;
+    padding: 10px;
+    color: rgb(200, 198, 198);
+}
+.midnight-content button{
+    font-size: 20px;
+    text-transform: uppercase;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: 550;
+    font-family: 'Inter', sans-serif;
+    padding: 10px;
+}
+.midnight-img{
+    width: 40%;
+    text-align: left;
+}
+
+
+#evening-time{
+    width: 100%;
+    height: 450px;
+    margin-top: 100px;
+    border-radius: 16px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.evening-content{
+    width: 1320px;
+    height: 450px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+.evening-content h1{
+    font-family: 'Inter', sans-serif;
+    padding: 10px;
+    font-size: 30px;
+}
+.evening-content span{
+    color: red;
+    font-size: 30px;
+    padding: 5px;
+    font-family: 'Inter', sans-serif;
+}
+.btn{
+    font-size: 20px;
+    text-transform: uppercase;
+    background: red;
+    border: none;
+    color:white ;
+    border-radius: 10px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    padding: 15px;
+    margin: 10px;
+}
+
+
+
+#offer{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+#offer div{
+    width: 400px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    padding: 10px;
+}
+#offer div h3{
+    font-family:'Inter', sans-serif;
+    text-transform: uppercase;
+    text-align: left;
+    color: red;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+#offer div h1{
+    margin: 10px;
+    text-align: left;
+    font-weight: 800;
+    font-size: 45px;
+}
+#offer div span{
+    color: red;
+    margin:  0px;
+    text-align: left;
+    font-family:'Inter', sans-serif;
+    
+}
+#offer div p{
+    font-family:'Inter', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    margin: 15px 10px;
+    color:gray;
+    font-size: 19px;
+}
+#offer div .offer-img{
+    width: 350px;
+    height: 350px;
+    padding: 20px;
+    border: 10px solid red;
+    border-radius: 50%;
+}
+#offer div .new-year-img{
+    width: 120px;
+    margin:25px 0px;
+    margin-left: -60%;
+}
+
+
+
+
+
+#portfolio-item{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio-content{
+    width: 1320px;
+    height: auto;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio-content h3{
+    font-size: 25px;
+    font-weight: 550;
+    padding: 10px;
+    font-family:'Inter', sans-serif;
+    text-transform: uppercase;
+    color: red;
+}
+.portfolio-content h1{
+    font-size: 45px;
+    font-weight: 550;
+    padding: 0px 10px;
+}
+.portfolio-content p{
+    font-size: 18px;
+    padding: 10px 10px;
+    color: gray;
+    font-family:'Inter', sans-serif;
+}
+.portfolio-img{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.portfolio-img img{
+    width: 420px;
+    height: 430px;
+    transition: 1s;
+}
+.portfolio-img img:hover{
+  transform:scale(0.9);
+}
+
+
+
+
+
+
+
+
+#newsletter{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    display: flex;
+}
+.newsletter-container{
+    width: 1320px;
+    height: auto;
+    margin: 0 auto;
+    padding: 4% 0px;
+    justify-content: center;
+    text-align: center;
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+.newsletter-container h1{
+    font-size: 50px;
+    font-weight: 800;
+    padding: 10px 0px;
+}
+.newsletter-container p{
+    font-size: 20px;
+    padding: 15px 0px;
+    color: gray;
+}
+.newsletter-container input{
+    padding: 25px;
+    width: 380px;
+    font-family:'Inter', sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+}
+.newsletter-container .btn{
+    width: 220px;
+    padding: 25px;
+    margin: -10px;
+    text-transform: capitalize;
+    border-radius: 0px 50px 50px 0px;
+}
+
+
+
+
+
+#footer{
+    width: 100%;
+    height: auto;
+    padding: 5rem;
+    margin-top: 100px;
+    background: #070211;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-content hr{
+    width: 100%;
+    height: auto;
+    background: rgb(39, 31, 31);
+}
+.footer-content{
+    width: 1320px;
+    height: auto;
+}
+.footer-content .line{
+    width: 1320px;
+    height: 1px ;
+    background: rgba(255, 255, 255, 0.15);
+}
+.footer-container{
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.footer-container h4{
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+    padding: 2px 0px;
+    font-family: 'Inter', sans-serif;
+}
+.footer-container img{
+    margin: 5px;
+}
+
+.footer-icon{
+    width: 100%;
+    height: auto;
+    padding: 2rem 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+.footer-icon img{
+    width: 60px;
+    height: auto;
+    margin: 10px;
+}
+
+.footer-copyright{
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    display:flex;
+}
+.footer-copyright h4{
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+    padding: 2rem 0px;
+}
+
+.icon div{
+    display: flex;
+    align-items: center;
+}
