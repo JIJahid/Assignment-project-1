@@ -262,6 +262,82 @@
 
 
 
+#sales{
+    width: 100%;
+    height: auto;
+    margin-top: 50px !important;
+}
+.sales-content{
+    width: 1320px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+.sales-content h4{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 5px;
+    font-family:'Inter', sans-serif;
+}
+.sales-content h1{
+    font-size: 75px;
+    font-weight: bold;
+    color: red;
+    text-transform: capitalize;
+    padding: 10px;
+}
+.sales-content p{
+    font-size: 18px;
+    font-weight: 500;
+    font-family:'Inter', sans-serif;
+    padding: 10px 5rem;
+}
+
+
+#sales .sales-container{
+    width: 1320px;
+    height: 649px;
+    margin: 0 auto;
+    display: flex;
+    background-position: bottom !important;
+    background-repeat: no-repeat !important;
+    background: url(./Image/Rectangle\ 2.png);
+}
+.sales-img{
+    width:60%;
+    height: auto;
+    text-align: center;
+}
+.imgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgs img{
+    width: 680px;
+}
+.image{
+    width: 40%;
+    position: relative;
+    justify-content: end;
+}
+.image img{
+    width: 400px;
+    float: right;
+    height: 420px;
+}
+.discount{
+    width: 250px !important;
+    height: 250px !important;
+    top: 80px;
+    left: 5px;
+    position: absolute;
+}
+
+
+
 #portfolio-item{
     width: 100%;
     height: auto;
@@ -354,6 +430,7 @@
     font-size: 20px;
     margin-top: 50px;
     border: none;
+    outline: none;
     border-radius: 50px 0px 0px 50px;
 }
 .newsletter-container .btn{
